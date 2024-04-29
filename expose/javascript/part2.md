@@ -1,1 +1,1 @@
-
+1. Line 12 will print 3 because i is the iteration variable of the for loop and line 12 prints what i equals after the loop ends. The loop ends when i is no longer less than the length of the prices array, and since i starts at 0 and increments by 1, i will equal the length of the prices array when it ends. The array prices, in this scenario, has the length of 3 so 3 is printed.
