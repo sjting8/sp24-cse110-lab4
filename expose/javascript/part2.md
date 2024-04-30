@@ -21,16 +21,18 @@
     
 14. A. 32, integers map to their exact string representation
 
-    B.
+    B. 1, the subtraction converts the string into an integer to be able to perform arithmetic.
 
-    C.
+    C. 3, null's toNumber value is equal to 0 so 3 + 0 = 3
 
-    D.
+    D. 3null, '3' starts the output as a string, and adding null just adds null as a string as well.
 
-    E.
+    E. 4, true maps to the value of 1.
 
-    F.
+    F. 0, both false and null map to the value of 0 so 0 + 0 = 0.
 
-    G.
+    G. 3undefined, '3' starts the output as a string,  and adding undefined just adds undefined as a string as well.
 
-    H.
+    H. NaN, the subtraction makes the values convert toNumber and undefined maps to NaN.
+
+15. 
