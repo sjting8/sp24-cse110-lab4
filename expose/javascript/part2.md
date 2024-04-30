@@ -48,3 +48,7 @@
     F. true, Boolean(2) is true and both values of the strict equality are of the boolean type.
 
 15. === is a strict equality operator while == is the equality operator. The strict operator always considers values of different types to be different (false) whereas the equality operator can automatically do type conversions.
+
+17. The result would be the array [2,4,6]. We call modifyArray with the given array and doSomething as our callback function. doSomething takes in a number and returns double of that. In modifyArray, the inputted array is iterated through and put into the callback function which is doSomething, and the value returned, which would be double, would be stored in the array newArr which is returned at the end. This essentially doubles each value and returns the array with the values of the doubles which would result in [2,4,6].
+
+19. 
