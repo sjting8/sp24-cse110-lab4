@@ -55,10 +55,8 @@
 
 18. in file part2-question18.js
 
-19. 1
-
-4
-
-3
-
-2
+19. <br>
+1 <br>
+4 <br>
+3 <br>
+2 <br>
