@@ -19,4 +19,18 @@
     
     E. student.courseLoad[0]
     
-14. a
+14. A. 32, integers map to their exact string representation
+
+    B.
+
+    C.
+
+    D.
+
+    E.
+
+    F.
+
+    G.
+
+    H.
