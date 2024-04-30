@@ -9,10 +9,14 @@
 9. The code causes an error because since we are using the let keyword for the variable i, i cannot be accessed outside of the scope of the block it is in, which would be the for loop. The console.log line is after the for loop and tries to access i which is not possible so there is an error.
 10. Line 12 prints out 3 because length is initialized to prices.length in line 4 where the length of the prices array is 3 and then the variable length does not get changed until line 12 so 3 is printed.
 11. Similarly to number 4, this function will return [50, 100, 150]. discountPrices returns discounted, which is an array that stores the discounted prices of the intial prices array. Each value of the prices array is iterated through and discounted according to the given discount (in this scenario, 0.5) and then that value is stored in the discounted array. The values [100, 200, 300] discounted by 0.5 will be [50, 100, 150] which is what ends up being stored in discounted. None of the variable keyword rules are violated so the code works functionally.
-12. 
-    A. student.name
+12. A. student.name
+
     B. student['Grad Year']
+    
     C. student.greeting()
+    
     D. student['Favorite Teacher'].name
+    
     E. student.courseLoad[0]
-13. a
+    
+14. a
