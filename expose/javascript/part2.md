@@ -19,7 +19,7 @@
     
     E. student.courseLoad[0]
     
-14. A. 32, integers map to their exact string representation
+13. A. 32, integers map to their exact string representation
 
     B. 1, the subtraction converts the string into an integer to be able to perform arithmetic.
 
@@ -35,4 +35,16 @@
 
     H. NaN, the subtraction makes the values convert toNumber and undefined maps to NaN.
 
-15. 
+14. A. true, '2' is type converted to 2 and 2 is greater than 1.
+
+    B. false, both values are strings so it compares the first character. The character 2 is greater than the character 1 so it would be false.
+
+    C. true, '2' is type converted to the value and 2 is equal to 2.
+
+    D. false, === is the string equality operator and the two values have different types so it would be false.
+
+    E. false, true maps to 1 which is not equal to 2
+
+    F. true, Boolean(2) is true and both values of the strict equality are of the boolean type.
+
+15. === is a strict equality operator while == is the equality operator. The strict operator always considers values of different types to be different (false) whereas the equality operator can automatically do type conversions.
